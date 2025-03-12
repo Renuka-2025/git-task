@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Microservice Frontend</title>
+</head>
+<body>
+    <h1>Hello from Frontend!</h1>
+    <p>API response: <span id="api-response"></span></p>
+
+    <script>
+        fetch('/api')
+            .then(response => response.text())
+            .then(data => document.getElementById('api-response').innerText = data)
+            .catch(err => console.error('Error:', err));
+    </script>
+</body>
+</html>
