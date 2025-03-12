@@ -2,5 +2,10 @@ Hello, this is the main branch
 
 This line is added in the main branch
 This line is added in the feature branch
+<<<<<<< HEAD
 
 Change from main branch
+=======
+This line is added in the feature branch
+Change from feature branch
+>>>>>>> feature-branch
